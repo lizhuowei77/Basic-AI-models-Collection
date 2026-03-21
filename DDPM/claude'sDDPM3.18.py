@@ -316,6 +316,12 @@ mse = nn.MSELoss()
 
 epochs = 5  # MNIST简单，5个epoch就能看到效果
 
+'''
+实际 DDPM 训练逻辑是:
+对单批次的每张图片，直接随机选一个步数 t（比如有的选 50 步、有的选 800 步），
+直接模拟 “加 t 步噪声后的结果”，让模型直接学习 “从 t 步噪声图还原”，而非逐步递进。
+'''
+
 for epoch in range(epochs):
     total_loss = 0
     count = 0
