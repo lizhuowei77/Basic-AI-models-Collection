@@ -84,11 +84,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💬 Contact
 If you have questions or suggestions, feel free to reach out via GitHub Issues or email: [your-email@example.com].
-
----
-
-### 📝 Usage Notes
-1. Replace `[Your-Username]` with your actual GitHub username (in the "Clone the Repository" section)
-2. Replace `[your-email@example.com]` with your real email address (in the "Contact" section)
-3. If you add a LICENSE file to your repository, make sure the license link works (you can create a simple MIT LICENSE file via GitHub's repository settings)
-4. This README follows standard GitHub Markdown syntax and will be automatically rendered with clean formatting on GitHub
